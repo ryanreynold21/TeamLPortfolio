@@ -25,7 +25,8 @@ const Portfolio = () => {
               Latest Works
             </h3>
             <p className=" text-slate-600 md:tracking-wider text-sm">
-              A JUNIOR WEB DEVELOPER <br className=" block md:hidden" /> BASED IN MYANMAR
+              A JUNIOR WEB DEVELOPER <br className=" block md:hidden" /> BASED
+              IN MYANMAR
             </p>
           </div>
           <div className=" container md:px-10">
@@ -50,7 +51,7 @@ const Portfolio = () => {
               </a>
               {/* dashboard */}
               <a
-                href="https://hotel-website-team-1bjeg7wno-khant-nyar-ko-ko.vercel.app/"
+                href="https://admin-dashboard-xi-one.vercel.app/"
                 className=" link-overlay"
                 target="_blank"
               >
@@ -148,7 +149,8 @@ const Portfolio = () => {
               TESTIMONIALS
             </h3>
             <p className=" text-slate-600 md:tracking-wider text-sm">
-              A JUNIOR WEB DEVELOPER <br className=" block md:hidden" /> BASED IN MYANMAR
+              A JUNIOR WEB DEVELOPER <br className=" block md:hidden" /> BASED
+              IN MYANMAR
             </p>
           </div>
           <div className="container px-5 md:px-20 pt-[90px] pb-[40px]">
