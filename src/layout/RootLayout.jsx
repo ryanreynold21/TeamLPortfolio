@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './Sidebar'
+// import Footer from './Footer'
 
 const RootLayout = ({children}) => {
   return (
@@ -8,6 +9,7 @@ const RootLayout = ({children}) => {
       <div className=" md:ml-[120px] ml-2">
         {children}
       </div>
+      {/* <Footer /> */}
     </>
   )
 }
