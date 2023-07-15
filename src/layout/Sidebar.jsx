@@ -1,11 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import {FaHouseDamage,FaRegAddressCard,FaConciergeBell,FaBriefcase,FaBlog,FaIdCardAlt} from 'react-icons/fa'
 
 const Sidebar = () => {
   return (
     <div>
-      <div className=" w-[120px] h-screen fixed left-0 shadow-2xl hidden md:block">
+      <motion.div
+       animate={{ x: 0 }}
+       initial={{ x: "-100px" }}
+      className=" w-[120px] h-screen absolute left-0 shadow-2xl bg-white z-50">
         {/* NavbarBrand */}
         <div className=" bg-[#d9832e] text-white text-[20px] font-bold text-center p-[10px]">
             <a className='' href="">Tony</a>
@@ -49,7 +53,7 @@ const Sidebar = () => {
             </li>
                 </Link>
         </ul>
-      </div>
+      </motion.div>
     </div>
   )
 }

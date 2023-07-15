@@ -9,15 +9,15 @@ const Home = () => {
   return (
     <RootLayout>
       <section id='home' className='relative'>
-              <div className="absolute block lg:hidden z-0">
+              <div className="absolute block lg:hidden">
                   <img src='../home-banner.jpg' className=' w-screen h-screen object-none object-center' alt="" />
               </div>
-        <div className="absolute z-10">
+        <div className="absolute">
           <div className="grid grid-cols-1 lg:grid-cols-2 relative">
             {/* <div className=""></div> */}
             {/* contact */}
             <div className=" flex justify-center">
-              <div className=" mt-[120px] ml-10 mr-10 bg-stone-50 lg:bg-white opaci-95 opacity-90 pl-5 pb-5">
+              <div className=" mt-[120px] ml-10 mr-10 bg-stone-50 lg:bg-white pl-5 pb-5">
                 <h1 className=' text-[#090A23] text-[16px] md:text-[18px] lg:text-[20px] font-[500] tracking-wider mt-16'>Hello there...</h1>
                 <h1 className=' text-[#090A23] text-[40px] md:text-[60px] lg:text-[70px] font-[600]'>Tony Smith</h1>
                 <div className=' flex items-center mb-5 text-[20px] md:text-[23px] lg:text-[25px]'>
