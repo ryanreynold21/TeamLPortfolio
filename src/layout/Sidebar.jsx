@@ -5,6 +5,8 @@ import {FaHouseDamage,FaRegAddressCard,FaConciergeBell,FaBriefcase,FaBlog,FaIdCa
 
 const Sidebar = () => {
   return (
+    <div> 
+      <div className=" w-[120px] h-screen fixed left-0 shadow-2xl sidebar sm:block hidden">
     <div>
       <motion.div
        animate={{ x: 0 }}

@@ -18,6 +18,7 @@ const RootLayout = ({children}) => {
   },[])
   return (
     <>
+
         {!sidebarOpen && <Sidebar /> }
       <div className=" md:ml-[120px]">
         <Navbar setSidebarOpen={setSidebarOpen} sidebarOpen={sidebarOpen}/>
