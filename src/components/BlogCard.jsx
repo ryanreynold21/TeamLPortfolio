@@ -1,6 +1,6 @@
 const BlogCard = ({ blog }) => {
   return (
-    <div className=" flex flex-col w-full md:w-[385px] items-center justify-center">
+    <div className=" flex flex-col w-full md:w-[330px] items-center justify-center">
       <div className="">
         <div className=" -z-20 ">
           <img src={blog.image} alt="" className="" />
@@ -18,7 +18,10 @@ const BlogCard = ({ blog }) => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
               veritatis omnis dolorum.
             </p>
-            <button className=" font-semibold border-b-2 text-[#d9832e] hover:text-slate-800 mt-5 text-md uppercase hover:border-slate-800 border-[#d9832e] ">
+            <button
+              className=" font-semibold border-b-2 text-[#d9832e] duration-150
+             hover:text-slate-800 mt-5 text-md uppercase hover:border-slate-800 border-[#d9832e] "
+            >
               read more
             </button>
           </div>
