@@ -2,8 +2,7 @@ import React from 'react'
 import {AiOutlineDesktop,AiOutlineMobile} from 'react-icons/ai'
 import {IoPricetagOutline} from 'react-icons/io5'
 
-import {PiChatCircleDotsLight} from 'react-icons/pi'
-// import {PiTargetThin} from 'react-icons/pi' //Error 1
+import {PiChatCircleDotsLight,PiTargetThin} from 'react-icons/pi'
 import {LiaToolsSolid} from 'react-icons/lia'
 import RootLayout from '../layout/RootLayout'
 const Services = () => {

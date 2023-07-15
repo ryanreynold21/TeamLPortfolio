@@ -5,13 +5,11 @@ import {FaHouseDamage,FaRegAddressCard,FaConciergeBell,FaBriefcase,FaBlog,FaIdCa
 
 const Sidebar = () => {
   return (
-    <div> 
-      <div className=" w-[120px] h-screen fixed left-0 shadow-2xl sidebar sm:block hidden">
-    <div>
+    <div className=''> 
       <motion.div
        animate={{ x: 0 }}
        initial={{ x: "-100px" }}
-      className=" w-[120px] h-screen absolute left-0 shadow-2xl bg-white z-50">
+      className=" w-[120px] h-screen shadow-2xl fixed left-0 bg-white z-50">
         {/* NavbarBrand */}
         <div className=" bg-[#d9832e] text-white text-[20px] font-bold text-center p-[10px]">
             <a className='' href="">Tony</a>
