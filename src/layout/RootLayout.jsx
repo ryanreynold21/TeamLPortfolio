@@ -5,7 +5,7 @@ const RootLayout = ({children}) => {
   return (
     <>
       <Sidebar />
-      <div className=" md:ml-[120px] ml-2">
+      <div className=" md:ml-[120px] ">
         {children}
       </div>
     </>
