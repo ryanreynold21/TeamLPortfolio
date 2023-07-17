@@ -6,7 +6,7 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { BiLogoLinkedin } from 'react-icons/bi';
 const About = () => {
   return (
-    <div>
+    <RootLayout>
       <div className='flex justify-center'>
         {/* About Gp */}
         <div className='bg-slate-100 sm:w-[92%] w-[100%]  sm:h-[700px] '>
@@ -201,7 +201,7 @@ const About = () => {
           </div>
         </div>
       </div>
-     </div>
+     </RootLayout>
   )
 }
 

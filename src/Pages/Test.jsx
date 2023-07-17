@@ -10,13 +10,11 @@ import TestSideBar from '../layout/TestSideBar'
 
 const Test = () => {
   return (
-    <div>
-        <TestSideBar />
         <ScrollSpy>
-            <div className=" z-50" id='home'>
+            <div className="" id='home'>
                 <Home />
             </div>
-            <div className=" mt-1000px" id='about'>
+            <div className="" id='about'>
                 <About />
             </div>
             <div className="" id='service'>
@@ -31,8 +29,7 @@ const Test = () => {
             <div className="" id='contact'>
                 <Contact />
             </div>
-           </ScrollSpy>
-    </div>
+        </ScrollSpy>
   )
 }
 

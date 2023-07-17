@@ -17,40 +17,42 @@ const TestSideBar = () => {
         {/* Nav */}
         <ul>
                 <p data-to-scrollspy-id="home" >
-            <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
-                    <FaHouseDamage className=' text-[30px]' />
-                    <span className=' text-[15px] tracking-wider mt-2'>HOME</span>
-            </li>
+                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+                         <FaHouseDamage className=' text-[30px]' />
+                         <span className=' text-[15px] tracking-wider mt-2'>HOME</span>
+                 </li>
                 </p>
               <a data-to-scrollspy-id="about">
-            <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
-                    <FaRegAddressCard className=' text-[30px]' />
-                    <span className=' text-[15px] tracking-wider mt-2'>ABOUT ME</span>
-            </li>
+                <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+                        <FaRegAddressCard className=' text-[30px]' />
+                        <span className=' text-[15px] tracking-wider mt-2'>ABOUT ME</span>
+                </li>
                 </a>
                 <p data-to-scrollspy-id="service">
-            <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
-                    <FaConciergeBell className=' text-[30px]' />
-                    <span className=' text-[15px] tracking-wider mt-2'>SERVICES</span>
-            </li>
+                        <a href="/service">
+                <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+                        <FaConciergeBell className=' text-[30px]' />
+                        <span className=' text-[15px] tracking-wider mt-2'>SERVICES</span>
+                </li>
+                        </a>
                 </p>
                 <p data-to-scrollspy-id="portfolio">
-            <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
-                    <FaBriefcase className=' text-[30px]' />
-                    <span className=' text-[15px] tracking-wider mt-2'>PORTFILIO</span>
-            </li>
+                <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+                        <FaBriefcase className=' text-[30px]' />
+                        <span className=' text-[15px] tracking-wider mt-2'>PORTFILIO</span>
+                </li>
                 </p>
                 <p data-to-scrollspy-id="blog">
-            <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
-                    <FaBlog className=' text-[30px]' />
-                    <span className=' text-[15px] tracking-wider mt-2'>BLOG</span>
-            </li>
+                <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+                        <FaBlog className=' text-[30px]' />
+                        <span className=' text-[15px] tracking-wider mt-2'>BLOG</span>
+                </li>
                 </p>
                 <p data-to-scrollspy-id="contact">
-            <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
-                    <FaIdCardAlt className=' text-[30px]' />
-                    <span className=' text-[15px] tracking-wider mt-2'>CONTACT</span>
-            </li>
+                <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+                        <FaIdCardAlt className=' text-[30px]' />
+                        <span className=' text-[15px] tracking-wider mt-2'>CONTACT</span>
+                </li>
                 </p>
         </ul>
       </motion.div>
