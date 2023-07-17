@@ -42,7 +42,7 @@ const Services = () => {
         desc: "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites."
     },]
   return (
-    <RootLayout>
+    // <RootLayout>
 
     <div className="px-4 py-[100px] min-h-screen font bg-[#EAEDF2] ">
      <div className="px-4 mb-[36px]">
@@ -66,7 +66,7 @@ const Services = () => {
        
      </div>
     </div>
-    </RootLayout>
+    // </RootLayout>
   )
 }
 

@@ -17,7 +17,7 @@ import { Autoplay } from "swiper/modules";
 
 const Portfolio = () => {
   return (
-    <RootLayout>
+    // <RootLayout>
       <section className="">
         <div className="portfolio py-20 ">
           <div className="title container pt-[90px] pb-[40px] px-10 md:px-20">
@@ -245,7 +245,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-    </RootLayout>
+    // </RootLayout>
   );
 };
 

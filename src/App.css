@@ -16,3 +16,8 @@ font{
   .popfont{
     font-family: 'Poppins', sans-serif;
   }
+
+  .active-scroll-spy {
+    background-color: rgb(253 186 116);
+    border-right: 4px solid black;
+  }

@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
   return (
-    <RootLayout>
-      <section id="home" className="relative">
+    <div>
+      <section  className="relative">
         <div className="absolute block lg:hidden">
           <img
             src="../home-banner.jpg"
@@ -82,7 +82,7 @@ const Home = () => {
           </p>
         </div>
       </Link>
-    </RootLayout>
+    </div>
   );
 }
 
