@@ -159,7 +159,7 @@ const Portfolio = () => {
               spaceBetween={1}
               slidesPerView={1}
               loop={true}
-              onSlideChange={() => console.log("slide change")}
+              // onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
               autoplay={{ delay: 1000 }}
               breakpoints={{
