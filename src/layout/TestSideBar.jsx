@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {FaHouseDamage,FaRegAddressCard,FaConciergeBell,FaBriefcase,FaBlog,FaIdCardAlt} from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const TestSideBar = () => {
   return (
@@ -16,44 +16,47 @@ const TestSideBar = () => {
         </div>
         {/* Nav */}
         <ul>
-                <p data-to-scrollspy-id="home" >
+                        <Link activeClass='active' to='home' smooth={true} duration={500}>
                  <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
                          <FaHouseDamage className=' text-[30px]' />
                          <span className=' text-[15px] tracking-wider mt-2'>HOME</span>
                  </li>
-                </p>
-              <a data-to-scrollspy-id="about">
+                        </Link>
+                        <Link to='about' smooth={true} duration={500}>
                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+
                         <FaRegAddressCard className=' text-[30px]' />
                         <span className=' text-[15px] tracking-wider mt-2'>ABOUT ME</span>
                 </li>
-                </a>
-                <p data-to-scrollspy-id="service">
-                        <a href="/service">
+                        </Link>
+                        <Link to='services' smooth={true} duration={500}>
                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+
                         <FaConciergeBell className=' text-[30px]' />
                         <span className=' text-[15px] tracking-wider mt-2'>SERVICES</span>
                 </li>
-                        </a>
-                </p>
-                <p data-to-scrollspy-id="portfolio">
+                        </Link>
+                        <Link to='portfolio' smooth={true} duration={500}>
                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+
                         <FaBriefcase className=' text-[30px]' />
                         <span className=' text-[15px] tracking-wider mt-2'>PORTFILIO</span>
                 </li>
-                </p>
-                <p data-to-scrollspy-id="blog">
+                        </Link>
+                        <Link to='blog' smooth={true} duration={500}>
                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+
                         <FaBlog className=' text-[30px]' />
                         <span className=' text-[15px] tracking-wider mt-2'>BLOG</span>
                 </li>
-                </p>
-                <p data-to-scrollspy-id="contact">
+                        </Link>
+                        <Link to='contact' smooth={true} duration={500}>
                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
+
                         <FaIdCardAlt className=' text-[30px]' />
                         <span className=' text-[15px] tracking-wider mt-2'>CONTACT</span>
                 </li>
-                </p>
+                        </Link>
         </ul>
       </motion.div>
     </div>

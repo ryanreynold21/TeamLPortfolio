@@ -8,7 +8,7 @@ const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
   return (
     <RootLayout>
-      <section  className="relative">
+      <section name='home'  className="relative">
         <div className="absolute block lg:hidden">
           <img
             src="../home-banner.jpg"

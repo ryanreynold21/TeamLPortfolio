@@ -6,7 +6,7 @@ import ContactInfo from "../components/ContactInfo";
 const Contact = () => {
   return (
     <RootLayout>
-      <div className=" p-8 py-[100px] bg-slate-200">
+      <div name='contact' className=" p-8 py-[100px] bg-slate-200">
         <h2 className="text-4xl font-semibold mb-8">Latest Blogs</h2>
         <h3 className="mb-14">A LEAD UX & UI DESIGNER BASED IN CANADA</h3>
         <div className="flex items-center gap-9 justify-between w-full">

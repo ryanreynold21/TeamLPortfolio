@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import SideBar from './Sidebar'
+import TestSideBar from './TestSideBar'
 
 
 const RootLayout = ({children}) => {
@@ -10,7 +11,7 @@ const RootLayout = ({children}) => {
   return (
     <>
 
-        {!sidebarOpen && <SideBar /> }
+        {!sidebarOpen && <TestSideBar /> }
       <div className=" md:ml-[120px]">
         <Navbar setSidebarOpen={setSidebarOpen} sidebarOpen={sidebarOpen}/>
         {children}

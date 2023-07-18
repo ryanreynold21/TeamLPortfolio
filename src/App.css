@@ -17,7 +17,7 @@ font{
     font-family: 'Poppins', sans-serif;
   }
 
-  .active-scroll-spy {
+  .active{
     background-color: rgb(253 186 116);
     border-right: 4px solid black;
   }
