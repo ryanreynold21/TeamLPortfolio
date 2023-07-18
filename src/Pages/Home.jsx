@@ -2,7 +2,7 @@ import React from 'react'
 import RootLayout from '../layout/RootLayout'
 import { TypeAnimation } from 'react-type-animation'
 import {BsChevronDown} from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
@@ -75,7 +75,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Link to={"/about"}>
+      <Link to={"about"} smooth={true}>
         <div className=" z-50 animate-bounce  rounded-full bg-[#D9832E] absolute bottom-0 left-0 m-auto right-0 w-12 h-12 ">
           <p className="text-xl mt-4 ml-[15px] text-white">
             <BsChevronDown />
