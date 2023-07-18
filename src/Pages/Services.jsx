@@ -49,6 +49,7 @@ const Services = () => {
         <h1 className="uppercase py-2 text-[35px] font-[800] tracking-tight "><span className=" border-b-2 border-[#D9832E] pb-2"> MY</span> Service</h1>
         <p className="text-sm popfont opacity-70 tracking-widest mt-2">A LEAD UX & UI DESIGNER BASED IN CANADA</p>
      </div>
+     
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8">
         {data.map((item)=>(
             <div className='group'>

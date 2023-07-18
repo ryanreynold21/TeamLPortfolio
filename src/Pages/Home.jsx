@@ -1,22 +1,22 @@
 import React from 'react'
 import RootLayout from '../layout/RootLayout'
 import { TypeAnimation } from 'react-type-animation'
-import {BsChevronDown} from 'react-icons/bs'
+import { BsChevronDown } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
   return (
     <RootLayout>
-      <section name='home' id="home" className="relative">
-        <div className="absolute block lg:hidden">
+      <section name='home' className="relative  " >
+        <div className=" block lg:hidden ">
           <img
             src="../home-banner.jpg"
             className=" w-screen h-screen object-none object-center"
             alt=""
           />
         </div>
-        <div className="absolute">
+        <div className="">
           <div className="grid grid-cols-1 lg:grid-cols-2 relative">
             {/* <div className=""></div> */}
             {/* contact */}
@@ -65,7 +65,7 @@ const Home = () => {
               </div>
             </div>
             {/* image */}
-            <div className=" hidden lg:block">
+            <div className=" hidden lg:block ">
               <img
                 src="https://tony-react.vercel.app/static/img/home-banner.jpg"
                 className="object-none object-right xl:w-screen lg:h-screen"
@@ -75,15 +75,22 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+
       <Link to={"/about"}>
-        <div className=" z-50 animate-bounce  rounded-full bg-[#D9832E] absolute bottom-0 left-0 m-auto right-0 w-12 h-12 ">
+        <div className=" z-50 animate-bounce  rounded-full bg-[#D9832E]  bottom-0 left-0 m-auto right-0 w-12 h-12 ">
           <p className="text-xl mt-4 ml-[15px] text-white">
             <BsChevronDown />
           </p>
         </div>
       </Link>
+
+
+
+
     </RootLayout>
   );
 }
 
 export default Home
+

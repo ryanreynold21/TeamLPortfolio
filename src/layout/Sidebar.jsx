@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import {FaHouseDamage,FaRegAddressCard,FaConciergeBell,FaBriefcase,FaBlog,FaIdCardAlt} from 'react-icons/fa'
 import { Link } from 'react-scroll'
-// import { Link } from 'react-scroll'
+
 
 const TestSideBar = () => {
   return (
@@ -23,7 +23,9 @@ const TestSideBar = () => {
                          <span className=' text-[15px] tracking-wider mt-2'>HOME</span>
                  </li>
                         </Link>
-                        <Link to='about' smooth={true} duration={500}>
+
+                        
+                        <Link   to='about' smooth={true} duration={500}>
                 <li className=' text-black flex flex-col justify-center items-center py-4 hover:text-orange-500 cursor-pointer'>
 
                         <FaRegAddressCard className=' text-[30px]' />
