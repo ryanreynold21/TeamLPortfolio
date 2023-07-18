@@ -7,7 +7,7 @@ import { BiLogoLinkedin } from 'react-icons/bi';
 const About = () => {
   return (
     <RootLayout>
-      <div className='flex justify-center'>
+      <div name='about' className='flex justify-center'>
         {/* About Gp */}
         <div className='bg-slate-100 sm:w-[92%] w-[100%]  sm:h-[700px] '>
           <div className='text-black text-4xl sm:mt-3 font-bold px-4'>

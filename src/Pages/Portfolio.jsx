@@ -18,7 +18,7 @@ import { Autoplay } from "swiper/modules";
 const Portfolio = () => {
   return (
     <RootLayout>
-      <section className="">
+      <section name='portfolio' className="">
         <div className="portfolio py-20 ">
           <div className="title container pt-[90px] pb-[40px] px-10 md:px-20">
             <h3 className=" text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
