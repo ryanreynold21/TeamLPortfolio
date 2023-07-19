@@ -1,5 +1,4 @@
 import React from "react";
-import RootLayout from "../layout/RootLayout";
 import BlogCard from "../components/BlogCard";
 const blogs = [
   {
@@ -18,7 +17,6 @@ const blogs = [
 
 const Blog = () => {
   return (
-    <RootLayout>
       <div name='blog' className=" p-8">
         <h2 className="text-3xl font-bold mb-8">Latest Blogs</h2>
         <h3 className="mb-14">A LEAD UX & UI DESIGNER BASED IN CANADA</h3>
@@ -28,7 +26,6 @@ const Blog = () => {
           })}
         </div>
       </div>
-    </RootLayout>
   );
 };
 

@@ -1,11 +1,9 @@
 import React from "react";
-import RootLayout from "../layout/RootLayout";
 import FormInput from "../components/FormInput";
 import ContactInfo from "../components/ContactInfo";
 
 const Contact = () => {
   return (
-    <RootLayout>
       <div name='contact' className=" p-8 py-[100px] bg-slate-200">
         <h2 className="text-4xl font-semibold mb-8">Latest Blogs</h2>
         <h3 className="mb-14">A LEAD UX & UI DESIGNER BASED IN CANADA</h3>
@@ -35,7 +33,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </RootLayout>
   );
 };
 

@@ -1,12 +1,10 @@
 import React from 'react'
-import RootLayout from '../layout/RootLayout'
 import { CgFacebook } from 'react-icons/cg';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { BiLogoLinkedin } from 'react-icons/bi';
 const About = () => {
   return (
-    <RootLayout>
       <section  name='about'>
       <div   className='flex justify-center'>
         {/* About Gp */}
@@ -203,7 +201,6 @@ const About = () => {
         </div>
       </div>
       </section>
-    </RootLayout>
   )
 }
 

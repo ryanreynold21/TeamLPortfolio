@@ -1,5 +1,4 @@
 import React from "react";
-import RootLayout from "../layout/RootLayout";
 import hotelImage from "../images/hotel.jpg";
 import dashboardImage from "../images/dashboard.jpg";
 import contactImage from "../images/contactin.jpg";
@@ -17,7 +16,6 @@ import { Autoplay } from "swiper/modules";
 
 const Portfolio = () => {
   return (
-    <RootLayout>
       <section name='portfolio' className="">
         <div className="portfolio py-20 ">
           <div className="title container pt-[90px] pb-[40px] px-10 md:px-20">
@@ -245,7 +243,6 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-    </RootLayout>
   );
 };
 

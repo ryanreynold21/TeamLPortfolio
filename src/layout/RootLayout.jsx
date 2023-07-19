@@ -4,23 +4,19 @@ import Navbar from './Navbar'
 // import Footer from './Footer'
 
 const RootLayout = ({children}) => {
-  const [sidebarOpen,setSidebarOpen] = useState(false)
+  const [sidebarOpen,setSidebarOpen] = useState(true)
   let x = window.matchMedia("(max-width: 700px)")
 
-  useEffect(() => {
-    // if (x.matches) {
-    //   console.log(x.matches)
-    //   setSidebarOpen(false)
-    // } else {
-    //  console.log(x.matches)
-    //  setSidebarOpen(true)
-    // }
-  },[])
+  // useEffect(() => {
+  //   if (x.matches) {
+  //     setSidebarOpen(false)
+  //   }
+  // },[])
   return (
     <>
 
-        {!sidebarOpen && <Sidebar /> }
-      <div className=" md:ml-[120px]">
+        {sidebarOpen && <Sidebar /> }
+      <div className=" md:ml-[120px] overflow-hidden">
         <Navbar setSidebarOpen={setSidebarOpen} sidebarOpen={sidebarOpen}/>
         {children}
       </div>
