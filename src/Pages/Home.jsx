@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { BsChevronDown } from 'react-icons/bs'
+import home from '../images/home-banner.jpg'
 import { Link } from 'react-scroll'
 
 const Home = () => {
@@ -65,7 +66,7 @@ const Home = () => {
             {/* image */}
             <div className=" hidden lg:block ">
               <img
-                src="https://tony-react.vercel.app/static/img/home-banner.jpg"
+                src={home}
                 className="object-none object-right xl:w-screen lg:h-screen"
                 alt=""
               />

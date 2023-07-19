@@ -3,6 +3,7 @@ import { CgFacebook } from 'react-icons/cg';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { BiLogoLinkedin } from 'react-icons/bi';
+import about from '../images/about-us.jpg'
 const About = () => {
   return (
       <section  name='about'>
@@ -36,7 +37,7 @@ const About = () => {
 
 
                 </div>
-                <img src='https://tony-react.vercel.app/static/img/about-us.jpg ' className='sm:w-[99%] sm:h-[444px] h-[370px]' />
+                <img src={about} className='sm:w-[99%] sm:h-[444px] h-[370px]' />
               </div>
             </div>
             {/* Tony Smith */}
