@@ -44,7 +44,7 @@ const Services = () => {
   return (
     <div>
 
-    <div name='services' className="px-4 py-[100px] min-h-screen font bg-[#EAEDF2] ">
+    <div name='services' className="px-4 py-[250px] sm:py-[100px] min-h-screen font bg-[#EAEDF2] ">
      <div className="px-4 mb-[36px]">
         <h1 className="uppercase py-2 text-[35px] font-[800] tracking-tight "><span className=" border-b-2 border-[#D9832E] pb-2"> MY</span> Service</h1>
         <p className="text-sm popfont opacity-70 tracking-widest mt-2">A LEAD UX & UI DESIGNER BASED IN CANADA</p>
