@@ -8,7 +8,7 @@ const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
   return (
     <div>
-      <section name='home' className="relative  " >
+      <section name='home' className="relative  mb-10" >
         {/* <div className=" block lg:hidden ">
           <img
             src="../home-banner.jpg"
@@ -51,11 +51,11 @@ const Home = () => {
                 </p>
                 <div className=" flex gap-5">
                   <Link to={"portfolio"}>
-                    <button className=" opacity-90 transition duration-500 ease-in-out bg-[#D9832E] px-[20px] lg:px-[40px] lg:py-[15px] py-[10px] text-white text-[12px] tracking-wider hover:bg-black">
+                    <button className=" opacity-90 transition duration-500 ease-in-out bg-[#D9832E] px-[20px] lg:px-[40px] lg:py-[15px] py-[12px] text-white text-[16px] tracking-wider hover:bg-black">
                       MY WORK
                     </button>
                   </Link>
-                  <Link to={"/contact"}>
+                  <Link to={"contact"}>
                     <button className=" opacity-90 transition duration-500 ease-in-out hover:bg-[#D9832E] px-[20px] lg:px-[40px] lg:py-[15px] py-[10px] text-[#D9832E] text-[16px] tracking-wider border-2 font-bold hover:text-white border-[#D9832E]">
                       HIRE ME
                     </button>
