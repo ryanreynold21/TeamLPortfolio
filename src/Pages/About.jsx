@@ -9,7 +9,7 @@ const About = () => {
       <section  name='about'>
       <div   className='flex justify-center'>
         {/* About Gp */}
-        <div className='bg-slate-100 sm:w-[100%] w-[100%]  sm:h-[700px] '>
+        <div className='bg-slate-100 sm:w-[100%] w-[100%]  sm:h-[700px] py-10 '>
           <div className='text-black text-4xl sm:mt-3 font-bold px-4'>
             ABOUT ME
           </div>
@@ -123,7 +123,7 @@ const About = () => {
 
       </div>
       {/* my skill Gp */}
-      <div className='flex justify-center mt-20'>
+      <div className='flex justify-center my-20'>
         <div className='h-[390px] sm:w-[92%] w-[100%] '>
           <div className='text-black text-4xl font-bold px-4'>
             MY SKILLS

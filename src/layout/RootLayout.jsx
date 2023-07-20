@@ -12,6 +12,20 @@ const RootLayout = ({children}) => {
   //     setSidebarOpen(false)
   //   }
   // },[])
+
+   useEffect(() => {
+     const handleWindowResize = () => {
+       const isMobile = window.matchMedia("(max-width: 700px)").matches;
+       setSidebarOpen(!isMobile);
+     };
+
+     handleWindowResize(); // Set initial state on component mount
+     window.addEventListener("resize", handleWindowResize);
+
+     return () => {
+       window.removeEventListener("resize", handleWindowResize);
+     };
+   }, []);
   return (
     <>
 
