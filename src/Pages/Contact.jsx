@@ -5,7 +5,9 @@ import ContactInfo from "../components/ContactInfo";
 const Contact = () => {
   return (
     <div name="contact" className=" p-8 py-[100px] bg-slate-200">
-      <h2 className="text-4xl font-semibold mb-8">Contact Us</h2>
+      <h2 className="text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
+        Contact Us
+      </h2>
       <h3 className="mb-14">A LEAD UX & UI DESIGNER BASED IN CANADA</h3>
       <div className="flex items-center flex-col md:flex-row gap-9 justify-between w-full">
         <div className="  p-11 w-full bg-white">

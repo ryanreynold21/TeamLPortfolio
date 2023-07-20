@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Sidebar from './Sidebar'
 import Navbar from './Navbar'
+import Footer from './Footer'
 // import Footer from './Footer'
 
 const RootLayout = ({children}) => {
@@ -34,7 +35,7 @@ const RootLayout = ({children}) => {
         <Navbar setSidebarOpen={setSidebarOpen} sidebarOpen={sidebarOpen}/>
         {children}
       </div>
-      {/* <Footer /> */}
+      <Footer/>
     </>
   )
 }
