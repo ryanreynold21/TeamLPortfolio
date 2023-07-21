@@ -45,9 +45,9 @@ const Home = () => {
                   />
                 </div>
                 <p className=" text-[#090A23] text-[15px] lg:text-[18px] tracking-wider font-[400] mb-5">
-                  The namics of how users interact with interactive elements
-                  within a user interface flow chart based on container
-                  proportion.
+                  Transforming ideas into captivating digital experiences
+                  through elegant code and creative vision. Let's craft
+                  meaningful journeys together
                 </p>
                 <div className=" flex gap-5">
                   <Link to={"portfolio"}>
