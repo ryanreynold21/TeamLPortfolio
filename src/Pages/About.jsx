@@ -23,16 +23,24 @@ const About = () => {
                 {/* relative group */}
                 <div className="absolute top-9  left-1 sm:w-[13%] w-[15%] h-[190px] sm:h-[210px] bg-white flex flex-col justify-around ">
                   <div className="sm:w-9 w-7 ml-3 sm:h-[34px] h-[30px] hover:bg-black bg-[#D9832E] flex items-center justify-center text-white">
-                    <CgFacebook />
+                    <a href="https://www.facebook.com/khantnyar.koko.16?mibextid=ZbWKwL">
+                      <CgFacebook />
+                    </a>
                   </div>
                   <div className="sm:w-9 w-7 ml-3 sm:h-[34px] h-[30px] sm:ml-3 hover:bg-black bg-[#D9832E] flex items-center justify-center text-white">
-                    <AiOutlineTwitter />
+                    <a href="https://twitter.com/DamianS28619131">
+                      <AiOutlineTwitter />
+                    </a>
                   </div>
                   <div className="sm:w-9 w-7 ml-3 sm:h-[34px] h-[30px] sm:ml-3 hover:bg-black bg-[#D9832E] flex items-center justify-center text-white">
-                    <AiOutlineInstagram />
+                    <a href="https://www.instagram.com/knkk_2002/?igshid=NGExMmI2YTkyZg==">
+                      <AiOutlineInstagram />
+                    </a>
                   </div>
                   <div className="sm:w-9 w-7 ml-3 sm:h-[34px] h-[30px] sm:ml-3 hover:bg-black bg-[#D9832E] flex items-center justify-center text-white">
-                    <BiLogoLinkedin />
+                    <a href="https://www.linkedin.com/in/khant-nyar-ko-ko-b993b3195/">
+                      <BiLogoLinkedin />
+                    </a>
                   </div>
                 </div>
                 <img
@@ -125,7 +133,9 @@ const About = () => {
                   </div>
                   {/* 3 */}
                   <div className="flex sm:px-14 mt-2 px-4 ">
-                    <div className="w-[91px] text-sm font-semibold">Instagram</div>
+                    <div className="w-[91px] text-sm font-semibold">
+                      Instagram
+                    </div>
                     <div className="w-[1px] h-[18px] bg-[#4f5052] "></div>
                     <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">
                       @knkk2002
