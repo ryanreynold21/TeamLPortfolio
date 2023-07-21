@@ -1,14 +1,14 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { BsChevronDown } from 'react-icons/bs'
-import home from '../images/home-banner.jpg'
+import homeHuman from '../images/HomeKnkk.png'
 import { Link } from 'react-scroll'
 
 const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
   return (
     <div>
-      <section name='home' className="relative  mb-10" >
+      <section name="home" className="relative  mb-10">
         {/* <div className=" block lg:hidden ">
           <img
             src="../home-banner.jpg"
@@ -24,8 +24,8 @@ const Home = () => {
                 <h1 className=" text-[#090A23] text-[16px] md:text-[18px] lg:text-[20px] font-[500] tracking-wider mt-16">
                   Hello there...
                 </h1>
-                <h1 className=" text-[#090A23] text-[40px] md:text-[60px] lg:text-[70px] font-[600]">
-                  Tony Smith
+                <h1 className=" text-[#090A23] text-[40px] md:text-[60px] lg:text-[60px] font-[600]">
+                  Khant Nyar Ko Ko
                 </h1>
                 <div className=" flex items-center mb-5 text-[20px] md:text-[23px] lg:text-[25px]">
                   <h1 className=" font-[500] mr-2">I Am Passionate </h1>
@@ -66,8 +66,8 @@ const Home = () => {
             {/* image */}
             <div className=" hidden lg:block ">
               <img
-                src={home}
-                className="object-none object-right xl:w-screen lg:h-screen"
+                src={homeHuman}
+                className="object-none object-right xl:w-screen lg:h-[1000px]"
                 alt=""
               />
             </div>
@@ -81,8 +81,6 @@ const Home = () => {
           </p>
         </div>
       </Link>
-
-
     </div>
   );
 }

@@ -5,23 +5,23 @@ const infoList = [
     id: 1,
     icon: "https://image.similarpng.com/very-thumbnail/2021/01/Location-icon-design-on-transparent-background-PNG.png",
     title: "Our Address",
-    content1: "123 Wt Street New York City",
-    content2: ",United States of America 34923",
+    content1: "123 50th Street, Yangon City,",
+    content2: "Myanmar 200141",
   },
   {
     id: 2,
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Phone_font_awesome.svg/1200px-Phone_font_awesome.svg.png",
 
     title: "Our Phone",
-    content1: "Office: +00432323232",
-    content2: "Office: +00432323232",
+    content1: "Office: +95522625535",
+    content2: "Office: +65432323232",
   },
   {
     icon: "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-1024.png",
     id: 3,
     title: "Our Email",
-    content1: "info@domainname.com",
-    content2: "contact@domain.com",
+    content1: "kokhantnyar19@gmail.com",
+    content2: "teaml12@domain.com",
   },
 ];
 

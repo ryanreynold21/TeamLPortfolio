@@ -44,7 +44,7 @@ const TestSideBar = () => {
       className=" w-[120px] h-screen shadow-2xl fixed left-0 bg-white z-50">
         {/* NavbarBrand */}
         <div className=" bg-[#d9832e] text-white text-[20px] font-bold text-center p-[10px]">
-            <a className='' href="">Tony</a>
+            <a className='' href="">Knkk</a>
         </div>
         {/* Nav */} 
         <ul className=''>
