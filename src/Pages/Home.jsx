@@ -24,7 +24,7 @@ const Home = () => {
                 <h1 className=" text-[#090A23] text-[16px] md:text-[18px] lg:text-[20px] font-[500] tracking-wider mt-16">
                   Hello there...
                 </h1>
-                <h1 className=" text-[#090A23] text-[40px] md:text-[60px] lg:text-[60px] font-[600]">
+                <h1 className=" text-[#090A23] text-[30px] md:text-[60px] lg:text-[60px] font-[600]">
                   Khant Nyar Ko Ko
                 </h1>
                 <div className=" flex items-center mb-5 text-[20px] md:text-[23px] lg:text-[25px]">

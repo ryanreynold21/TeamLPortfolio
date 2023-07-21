@@ -47,8 +47,8 @@ const About = () => {
                 I'M Khant Nyar Ko Ko
               </div>
               <div className="flex sm:px-14 px-4  mt-4">
-                <div className="text-1xl">A Lead</div>
-                <div className="sm:ml-3 ml-2 text-[#d9832e] text-1xl">
+                <div className="text-sm md:text-1xl">A Lead</div>
+                <div className="sm:ml-3 ml-2 text-[#d9832e] text-sm md:text-1xl">
                   FRONTED DEVELOPER
                 </div>
                 <div className="sm:ml-3 ml-2 text-1xl"> in</div>
@@ -56,7 +56,7 @@ const About = () => {
                   Myanmar
                 </div>
               </div>
-              <div className="sm:w-[90%] sm:mx-14 px-4 sm:mt-8 mt-4 h-[112px] text-[#555a64]">
+              <div className="sm:w-[90%]  text-sm md:text-base sm:mx-14 px-4 sm:mt-8 mt-8 h-[112px] text-[#555a64]">
                 I design and develop services for customers of all sizes,
                 specializing in creating stylish, modern websites, web services
                 and online stores. My passion is to design digital user
