@@ -8,7 +8,7 @@ const Contact = () => {
       <h2 className="text-2xl md:text-4xl tracking-tight uppercase font-semibold relative inline-block align-top z-10 mb-[10px] py-[10px] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#d9832e] after:w-[50px]">
         Contact Us
       </h2>
-      <h3 className="mb-14">A LEAD UX & UI DESIGNER BASED IN CANADA</h3>
+      <h3 className="mb-14">A FRONT-END DEVELOPER BASED IN MYANMAR</h3>
       <div className="flex items-center flex-col md:flex-row gap-9 justify-between w-full">
         <div className="  p-11 w-full bg-white">
           <div className="flex flex-col md:flex-row gap-11 items-center justify-between ">

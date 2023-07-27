@@ -53,7 +53,7 @@ const Services = () => {
             Service
           </h1>
           <p className="text-sm popfont opacity-70 tracking-widest mt-2">
-            A LEAD UX & UI DESIGNER BASED IN CANADA
+            A FRONT-END DEVELOPER BASED IN MYANMAR
           </p>
         </div>
 

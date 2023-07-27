@@ -2,20 +2,14 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { BsChevronDown } from 'react-icons/bs'
 import akw from '../images/akw.png'
+
 import { Link } from 'react-scroll'
 
 const Home = () => {
   const url = "https://tony-react.vercel.app/static/img/home-banner.jpg"
   return (
     <div>
-      <section name='home' className="relative  mb-10" >
-        {/* <div className=" block lg:hidden ">
-          <img
-            src="../home-banner.jpg"
-            className=" w-screen h-screen object-none object-center"
-            alt=""
-          />
-        </div> */}
+      <section name="home" className="relative  mb-10">
         <div className="">
           <div className="grid grid-cols-1 lg:grid-cols-2 relative">
             {/* contact */}
@@ -24,8 +18,8 @@ const Home = () => {
                 <h1 className=" text-[#090A23] text-[16px] md:text-[18px] lg:text-[20px] font-[500] tracking-wider mt-16">
                   Hello there...
                 </h1>
-                <h1 className=" text-[#090A23] text-[30px] md:text-[60px] lg:text-[70px] font-[600]">
-                  Khant Nyar Ko Ko
+                <h1 className=" text-[#090A23] text-[30px] md:text-[60px] lg:text-[60px] font-[600]">
+                  Aung Kyaw Win
                 </h1>
                 <div className=" flex items-center mb-5 text-[20px] md:text-[23px] lg:text-[25px]">
                   <h1 className=" font-[500] mr-2">I Am Passionate </h1>
@@ -45,9 +39,9 @@ const Home = () => {
                   />
                 </div>
                 <p className=" text-[#090A23] text-[15px] lg:text-[18px] tracking-wider font-[400] mb-5">
-                  The namics of how users interact with interactive elements
-                  within a user interface flow chart based on container
-                  proportion.
+                  Transforming ideas into captivating digital experiences
+                  through elegant code and creative vision. Let's craft
+                  meaningful journeys together
                 </p>
                 <div className=" flex gap-5">
                   <Link to={"portfolio"}>
@@ -64,10 +58,10 @@ const Home = () => {
               </div>
             </div>
             {/* image */}
-            <div className=" hidden lg:block ">
+            <div className=" hidden lg:block">
               <img
                 src={akw}
-                className="object-none object-right xl:w-screen lg:h-[1000px]"
+                className=" object-top object-cover xl:w-screen lg:h-screen"
                 alt=""
               />
             </div>
@@ -81,8 +75,6 @@ const Home = () => {
           </p>
         </div>
       </Link>
-
-
     </div>
   );
 }
