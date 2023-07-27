@@ -4,7 +4,7 @@ import {FaHouseDamage,FaRegAddressCard,FaConciergeBell,FaBriefcase,FaBlog,FaIdCa
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 
-const TestSideBar = () => {
+const SideBar = () => {
        const data = [{
         id:'1',
         to:'home',
@@ -41,7 +41,7 @@ const TestSideBar = () => {
       <motion.div
        animate={{ x: 0 }}
        initial={{ x: "-100px" }}
-      className=" w-[120px] h-screen shadow-2xl fixed left-0 bg-white z-50">
+      className="">
         {/* NavbarBrand */}
         <div className=" bg-[#d9832e] text-white text-[20px] font-bold text-center p-[10px]">
             <a className='' href="">Tony</a>
@@ -62,4 +62,4 @@ const TestSideBar = () => {
   )
 }
 
-export default TestSideBar
+export default SideBar

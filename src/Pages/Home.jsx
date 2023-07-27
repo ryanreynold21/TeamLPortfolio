@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { BsChevronDown } from 'react-icons/bs'
-import mee from '../images/mee.png'
+import akw from '../images/akw.png'
 import { Link } from 'react-scroll'
 
 const Home = () => {
@@ -66,7 +66,7 @@ const Home = () => {
             {/* image */}
             <div className=" hidden lg:block ">
               <img
-                src={mee}
+                src={akw}
                 className="object-none object-right xl:w-screen lg:h-[1000px]"
                 alt=""
               />

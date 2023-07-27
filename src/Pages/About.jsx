@@ -3,7 +3,7 @@ import { CgFacebook } from 'react-icons/cg';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { BiLogoLinkedin } from 'react-icons/bi';
-import knkk from '../images/knkk.png'
+import about from '../images/about-us.jpg'
 const About = () => {
   return (
       <section  name='about'>
@@ -37,12 +37,12 @@ const About = () => {
 
 
                 </div>
-                <img src={knkk} className='sm:w-[99%] sm:h-[444px] h-[370px]' />
+                <img src={about} className='sm:w-[99%] sm:h-[444px] h-[370px]' />
               </div>
             </div>
             {/* Tony Smith */}
             <div className='sm:w-[60%] w-[100%]'>
-              <div className='text-3xl font-semibold sm:mt-20 mt-8 sm:px-14 px-4'>I'M Khant Nyar KoKo</div>
+              <div className='text-3xl font-semibold sm:mt-20 mt-8 sm:px-14 px-4'>I'M Tony Smith</div>
               <div className='flex sm:px-14 px-4  mt-4'>
                 <div className='text-1xl'>A Lead</div>
                 <div className='sm:ml-3 ml-2 text-[#d9832e] text-1xl'>FRONTED DEVELOPER</div>
@@ -61,27 +61,27 @@ const About = () => {
                   <div className='flex sm:px-14 px-4 sm:mt-5 mt-24'>
                     <div className='w-[91px] text-sm font-semibold'>Birthday</div>
                     <div className='w-[1px]  sm:ml-0 h-[20px] bg-[#4f5052] '></div>
-                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">25th March 2002</div>
+                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">4th April 1991</div>
                   </div>
 
                   {/* 2 */}
                   <div className='flex sm:px-14 mt-2 px-4 '>
                     <div className='w-[91px] text-sm font-semibold'>Age</div>
                     <div className='w-[1px]  h-[20px] bg-[#4f5052] '></div>
-                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">21  Yr</div>
+                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">22  Yr</div>
                   </div>
                   {/*3  */}
 
                   <div className='flex sm:px-14 mt-2 px-4 '>
                     <div className='w-[91px] text-sm font-semibold'>Residence</div>
                     <div className='w-[1px]  sm:ml-0 h-[20px] bg-[#4f5052] '></div>
-                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">Yangon</div>
+                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">Canada</div>
                   </div>
                   {/* 4 */}
                   <div className='flex sm:px-14 mt-2 px-4 '>
                     <div className='w-[91px] text-sm font-semibold'>Address</div>
                     <div className='w-[1px]  sm:ml-0  h-[20px] bg-[#4f5052] '></div>
-                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">Yangon, Myanmar</div>
+                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">California, USA</div>
                   </div>
                 </div>
 
@@ -90,13 +90,13 @@ const About = () => {
                   <div className='flex sm:px-14 sm:mt-5 mt-2 px-4'>
                     <div className='w-[91px] text-sm font-semibold'>E-mail</div>
                     <div className='w-[1px]  sm:ml-0 h-[18px] bg-[#4f5052] '></div>
-                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">kokhantnyar19@gmail.com</div>
+                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">info@domain.com</div>
                   </div>
                   {/* 2 */}
                   <div className='flex sm:px-14  mt-2 px-4 '>
                     <div className='w-[91px] text-sm font-semibold'>Phone</div>
                     <div className='w-[1px]  sm:ml-0 h-[18px] bg-[#4f5052] '></div>
-                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">09-762460714</div>
+                    <div class="text-[#555a64] sm:ml-4 ml-6 text-sm">820-885-3321</div>
                   </div>
                   {/* 3 */}
                   <div className='flex sm:px-14 mt-2 px-4 '>
