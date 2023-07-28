@@ -41,10 +41,10 @@ const SideBar = () => {
       <motion.div
        animate={{ x: 0 }}
        initial={{ x: "-100px" }}
-      className=" w-[110px] fixed">
+      className=" w-[110px] fixed z-50 bg-white h-screen shadow-xl">
         {/* NavbarBrand */}
         <div className=" bg-[#d9832e] text-white text-[20px] font-bold text-center p-[10px]">
-            <a className='' href="">Knkk</a>
+            <a className='' href="">AKW</a>
         </div>
         {/* Nav */} 
         <ul className=''>
